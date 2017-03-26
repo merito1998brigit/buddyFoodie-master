@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="largeText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large.Inverse</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

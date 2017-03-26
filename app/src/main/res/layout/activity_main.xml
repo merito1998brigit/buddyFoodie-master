@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/back2">
+
+
+
+
+  <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buddy"
+      android:layout_above="@+id/Heading"
+      android:layout_alignEnd="@+id/SnacksButton"
+      android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" HELLO......WHICH DELICIOUS FOOD WOULD YOU LIKE TO COOK TODAY ?"
+        android:id="@+id/Heading"
+        android:textSize="21dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:textColor="#ff490e04"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RICE"
+        android:id="@+id/RiceButton"
+        android:layout_below="@+id/Heading"
+        android:layout_alignStart="@+id/Heading"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:background="#ff4b1501"
+        android:textColor="#fffff8f3"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURRIES"
+        android:id="@+id/CurriesButton"
+        android:layout_below="@+id/RiceButton"
+        android:layout_alignStart="@+id/RiceButton"
+        android:layout_marginTop="20dp"
+        android:background="#ff4b1501"
+        android:textColor="#fffff8f3"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PARATHAS"
+        android:id="@+id/ParathasButton"
+        android:layout_below="@+id/CurriesButton"
+        android:layout_alignStart="@+id/CurriesButton"
+        android:layout_marginTop="20dp"
+        android:background="#ff4b1501"
+        android:textColor="#fffff8f3"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SNACKS"
+        android:id="@+id/SnacksButton"
+        android:layout_alignTop="@+id/RiceButton"
+        android:layout_alignEnd="@+id/Heading"
+        android:layout_marginRight="60dp"
+        android:background="#ff4b1501"
+        android:textColor="#fffff8f3"
+        android:textStyle="bold|italic"
+        android:layout_above="@+id/DessertsButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESSERTS"
+        android:id="@+id/DessertsButton"
+        android:layout_below="@+id/RiceButton"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/SnacksButton"
+        android:background="#ff4b1501"
+        android:textColor="#fffff8f3"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JUICES"
+        android:id="@+id/JuicesButton"
+        android:layout_alignTop="@+id/ParathasButton"
+        android:layout_alignEnd="@+id/DessertsButton"
+        android:background="#ff4b1501"
+        android:textColor="#fffff8f3"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
